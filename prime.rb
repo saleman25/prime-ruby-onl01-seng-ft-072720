@@ -1,8 +1,8 @@
 def prime?(number)
   if number > 1 && number < 4
     return true
-  elsif number < 2 == true then return true 
-  elsif number.even? == true then return false 
+  elsif number < 2 == true then return false 
+  elsif number.even? == true then return true 
 
   else
     
