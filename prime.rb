@@ -1,22 +1,14 @@
 def prime?(number)
-  if number > 1 && number < 4
-    return true
-  elsif number < 2 == true then return false 
-  elsif number.even? == true then return false 
-
-  else
-    
-a = (2 .. (number - 1)).to_a 
-
-a.collect do |i|
- if (number % i) == 0 then false
-
- 
-    
-   end 
+    if number <= 1
+    return false
   end
-
+  i=2
+  while i <= number/2
+    if number % i == 0
+      return false
+    else
+      i += 1
+    end
   end
-   true
+  true
 end
-  
