@@ -9,7 +9,7 @@ def prime?(number)
 a = (2 .. (number - 1)).to_a 
 
 a.collect do |i|
- if (number % i) == 0 then true
+ if (number % i) == 0 then false
 
  
     
