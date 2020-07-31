@@ -1,5 +1,4 @@
-# Add  code here!
-def prime(number)
+def prime?(number)
   if number > 1 && number < 4
     return true
   elsif number < 2 == true then return false 
