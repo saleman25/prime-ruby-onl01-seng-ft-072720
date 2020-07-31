@@ -1,4 +1,5 @@
 # Add  code here!
-def prime()
+def prime(number)
+  index = 0 
   
 end
